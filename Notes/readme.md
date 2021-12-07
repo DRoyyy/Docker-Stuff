@@ -1,13 +1,13 @@
 # Docker
 Docker provides the ability to package and run an application in a loosely isolated environment called a container. The isolation and security allow you to run many containers simultaneously on a given host. Containers are lightweight and contain everything needed to run the application, so you do not need to rely on what is currently installed on the host. You can easily share containers while you work, and be sure that everyone you share with gets the same container that works in the same way.
 
-![VM VS CONTAINER](/home/dipta/Docker/Notes/images/vm-vs-container.png)
+![VM VS CONTAINER](https://github.com/DRoyyy/Docker-Stuff/blob/main/Notes/images/vm-vs-container.png)
 
 
 ## Docker Architecture
 Docker uses a client-server architecture. The Docker *client* talks to the Docker *daemon*, which does the heavy lifting of building, running, and distributing your Docker *containers*. The Docker *client* and *daemon* can run on the same system, or you can connect a Docker *client* to a remote Docker *daemon*. The Docker *client* and *daemon* communicate using a REST API, over UNIX sockets or a network interface. Another Docker *client* is Docker *Compose*, that lets you work with applications consisting of a set of *containers*.
 
-![Docker Architecture](/home/dipta/Docker/Notes/images/architecture.svg)
+![Docker Architecture](https://github.com/DRoyyy/Docker-Stuff/blob/main/Notes/images/architecture.svg)
 
 ### daemon
 The Docker daemon (dockerd) listens for Docker API requests and manages Docker objects such as images, containers, networks, and volumes. A daemon can also communicate with other daemons to manage Docker services.
